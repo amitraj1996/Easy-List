@@ -1,6 +1,6 @@
-# flutter_demo
+# Easy List
 
-A new Flutter project.
+A Flutter demo project.
 
 ## Getting Started
 
