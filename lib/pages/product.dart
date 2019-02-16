@@ -26,8 +26,8 @@ ProductPage(this.title,this.imageUrl);
               padding: EdgeInsets.all(10.0),
               child: RaisedButton(
                 color: Theme.of(context).accentColor,
-                child: Text('BACK'),
-                onPressed: () => Navigator.pop(context),
+                child: Text('DELETE'),
+                onPressed: () => Navigator.pop(context, true),
               ),
             )
           ],
