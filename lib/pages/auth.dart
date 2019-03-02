@@ -14,7 +14,6 @@ class _AuthPageState extends State<AuthPage> {
 
   @override
   Widget build(BuildContext context) {
-    // TODO: implement build
     return Scaffold(
         appBar: AppBar(
           title: Text('Login'),
@@ -56,7 +55,7 @@ class _AuthPageState extends State<AuthPage> {
                   color: Theme.of(context).primaryColor,
                   textColor: Colors.white,
                   onPressed: () {
-                    Navigator.pushReplacementNamed(context, '/');
+                    Navigator.pushReplacementNamed(context, '/products');
                   },
                 )
               ],
